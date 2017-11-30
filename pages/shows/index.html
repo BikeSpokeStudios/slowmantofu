@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <base href="http://www.slowmantofu.com">
+    
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
+
+    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_16x16.jpg" sizes="16x16">
+    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_32x32.jpg" sizes="32x32">
+    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_128x128.jpg" sizes="128x128">
+
+    <title>
+      
+      
+         Shows 
+      
+    </title>
+    <link rel="canonical" href="http://www.slowmantofu.com/pages/shows/">
+
+    <style>
+  * {
+    border:0;
+    font:inherit;
+    font-size:100%;
+    vertical-align:baseline;
+    margin:0;
+    padding:0;
+    color: black;
+  }
+
+  body {
+    font-family:'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size:17px;
+    line-height:160%;
+    color:#1d1313;
+    max-width:700px;
+    margin:auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a img {
+    border:none;
+  }
+
+  img {
+    margin: 10px auto 10px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float:right;
+  }
+
+  pre, code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #f7f7f7;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,q,em,dfn {
+    font-style:italic;
+  }
+
+  .sans,html .gist .gist-file .gist-meta {
+    font-family:"Open Sans","Myriad Pro",Myriad,sans-serif;
+  }
+
+  .mono,pre,code,tt,p code,li code {
+    font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+  }
+
+  .heading,.serif,h1,h2,h3 {
+    font-family:"Old Standard TT",serif;
+  }
+
+  strong {
+    font-weight:600;
+  }
+
+  q:before {
+    content:"\201C";
+  }
+
+  q:after {
+    content:"\201D";
+  }
+
+  del,s {
+    text-decoration:line-through;
+  }
+
+  blockquote {
+    font-family:"Old Standard TT",serif;
+    text-align:center;
+    padding:50px;
+  }
+
+  blockquote p {
+    display:inline-block;
+    font-style:italic;
+  }
+
+  blockquote:before,blockquote:after {
+    font-family:"Old Standard TT",serif;
+    content:'\201C';
+    font-size:35px;
+    color:#403c3b;
+  }
+
+  blockquote:after {
+    content:'\201D';
+  }
+
+  hr {
+    width:40%;
+    height: 1px;
+    background:#403c3b;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size:35px;
+  }
+
+  h2 {
+    font-size:28px;
+  }
+
+  h3 {
+    font-size:22px;
+    margin-top:18px;
+  }
+
+  h1 a,h2 a,h3 a {
+    text-decoration:none;
+  }
+
+  h1,h2 {
+    margin-top:28px;
+  }
+
+  #sub-header, time {
+    color:#403c3b;
+    font-size:13px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size:35px;
+    color:#1d1313;
+    line-height:120%;
+  }
+
+  .posts_listing a,#nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  ul li {
+    margin-left: 5px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+  ul li:before {
+    content:"\00BB \0020";
+  }
+
+  #nav ul li:before, .posts_listing li:before {
+    content:'';
+    margin-right:0;
+  }
+
+  #content {
+    text-align:left;
+    width:100%;
+    font-size:15px;
+    padding:60px 0 80px;
+  }
+
+  #content h1,#content h2 {
+    margin-bottom:5px;
+  }
+
+  #content h2 {
+    font-size:25px;
+  }
+
+  #content .entry-content {
+    margin-top:15px;
+  }
+
+  #content time {
+    margin-left:3px;
+  }
+
+  #content h1 {
+    font-size:30px;
+  }
+
+  .highlight {
+    margin: 10px 0;
+  }
+
+  .posts_listing {
+    margin:0 0 50px;
+  }
+
+  .posts_listing li {
+    margin:0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,#nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align:center;
+    position:static;
+    margin-top:60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type:none;
+    display:table-cell;
+    font-size:15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float:right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family:"Old Standard TT",serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:28px;
+    }
+
+    #nav li {
+      font-size:13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:50px;
+      font-size:14px;
+    }
+
+    #content h1 {
+      font-size:25px;
+    }
+
+    #content h2 {
+      font-size:22px;
+    }
+
+    .posts_listing li div {
+      font-size:12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:22px;
+    }
+
+    #nav li {
+      font-size:12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:20px;
+      font-size:12px;
+    }
+
+    #content h1 {
+      font-size:20px;
+    }
+
+    #content h2 {
+      font-size:18px;
+    }
+
+    .posts_listing li div{
+      font-size:12px;
+    }
+  }
+</style>
+
+
+    
+  </head>
+
+  <body>
+    <section id=nav>
+      <h1><a href="http://www.slowmantofu.com/">Slow Man Tofu</a></h1>
+      <ul>
+        
+          <li><a href="http://www.slowmantofu.com/pages/about">About</a></li>
+        
+          <li><a href="http://www.slowmantofu.com/pages/music">Music</a></li>
+        
+          <li><a href="http://www.slowmantofu.com/pages/photos">Photos</a></li>
+        
+          <li><a href="http://www.slowmantofu.com/pages/reviews">Reviews</a></li>
+        
+          <li><a href="http://www.slowmantofu.com/pages/shows">Shows</a></li>
+        
+          <li><a href="http://www.slowmantofu.com/pages/video">Video</a></li>
+        
+      </ul>
+    </section>
+
+
+<section id=content>
+  <h1> Shows </h1>
+
+  <div id=sub-header>
+    September 2017 · 3 minute read
+  </div>
+
+  <div class="entry-content">
+    <p>Send an email to inquire about booking Slow Man Tofu: dirty.clothes.records@gmail.com.</p>
+
+<h3 id="upcoming-performances">Upcoming Performances</h3>
+
+<p>November 15, 2017 - ELMS, Raissa Simone &amp; Slow Man Tofu - The Garnet, Peterborough, ON</p>
+
+<p>November 16, 2017 - Slow Man Tofu and Jonathan Davies - House concert, Harrowsmith, ON</p>
+
+<p>November 17, 2017 - Slow Man Tofu - Musiikki Cafe, Kingston, ON</p>
+
+<p>November 18, 2017 - Slow Man Tofu at Night Kitchen Too - Pinnacle Playhouse, Belleville, ON</p>
+
+<p>November 19, 2017 - David Parker at IMOO - General Assembly, Ottawa, ON</p>
+
+<p>November 20, 2017 - Moonfox, Del Stephen and Slow Man Tofu - Rise Above, St. Catharine&rsquo;s, ON</p>
+
+<p>November 21, 2017 - Del Stephen // Happy Baby // Slow Man Tofu - The Tranzac Club, Toronto, ON</p>
+
+<p>November 22, 2017 - Spirit of the Inner Child: Spontaneous Collaborations - Array Space, Toronto, ON</p>
+
+<p>November 24, 2017 - Slow Man Tofu // Xiao Xuan // Del Stephen - Musical Chairs, Kingston, ON</p>
+
+<p>November 25, 2017 - Conz/Jacobs/Preito, Slow Collapse, Egyptian Cotton Arkestra, Del Stephen/Sinibaldi/Parker - 185 Van Horne, Montreal, QC</p>
+
+<h3 id="past-performances">Past Performances</h3>
+
+<p>August 21st, 2016 - Moonriser, Slow Man Tofu, and I, The Mountain - The Garnet, Peterborough, ON</p>
+
+<p>August 22nd, 2016 - Moonriser &amp; Slow Man Tofu - The Central (Upstairs), Toronto, ON</p>
+
+<p>August 23rd, 2016 - Slow Man Tofu, Moonriser &amp; Anthony Sweet - Mahtay Cafe, Ste. Catharine’s, ON</p>
+
+<p>August 25th, 2016 - Moonriser, Scary Bear Soundtrack &amp; Slow Man Tofu - Bar Robo, Ottawa, ON</p>
+
+<p>August 27th, 2016 - Slow Man Tofu, Moonriser, and Wire Tones - Le Cagibi, Montreal, QC</p>
+
+<p>August 28th, 2016 - Slow Man Tofu, Moonriser, &amp; Konig - Musical Chairs Furniture Store, Kingston, ON</p>
+
+<p>April 8th, 2016 - Dirty Clothes Series #2: Tanglewood, Sly Loon, and Slow Man Tofu at La Passe, Montreal, QC</p>
+
+<p>December 11th, 2015 - Dirty Clothes Presents: Slow Man Tofu &amp;&amp; Katie Beth, Musiikki Cafe, Kingston ON</p>
+
+<p>November 20th, 2015 - Musiikki Cafe, Kingston ON</p>
+
+<p>November 10th, 2015 - Harrowsmith, ON</p>
+
+<p>September 12th, 2015 - Pony Girl, Run Coyote, Slow Man Tofu &amp; Old Cabin at the Mansion, Kingston ON</p>
+
+<p>June 12, 2015 - Colin Richards, Matt Dowling &amp; Slow Man Tofu (album release) at Musiikki Cafe, Kingston ON</p>
+
+<p>March 26, 2015 - BA Johnson, The Huaraches &amp; Slow Man Tofu, at The Mansion, Kingston ON</p>
+
+<p>November 28, 2014 – David Parker + Matt Dowling, live at Musiikki Cafe and on CFRC 101.9 FM, Kingston ON</p>
+
+<p>October 1st, 2014 – Alanna Gurr &amp; The Greatest State // Lowlands // Slow Man Tofu, at The Artel, Kingston ON</p>
+
+<p>September 13th, 2014 – Shawna Caspi with special guest David Parker, house concert, Kingston ON</p>
+
+<p>June 11th, 2014 – Jon McKiel // Construction &amp; Destruction // Slow Man Tofu, at The Artel, Kingston ON</p>
+
+<p>February 27th, 2014 – Run Coyote // Slow Man Tofu // Ryan Keough, at The Artel, Kingston ON</p>
+
+<p>January 19th, 2014 – Warmer // Slow Man Tofu // A Cat Named Wolf, at The Artel, Kingston ON</p>
+
+  </div>
+
+</section>
+
+  
+</body>
+</html>
+
