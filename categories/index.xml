@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on David Parker</title>
-    <link>https://www.slowmantofu.com/categories/</link>
+    <link>http://slowmantofu.com/categories/</link>
     <description>Recent content in Categories on David Parker</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://www.slowmantofu.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="http://slowmantofu.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
