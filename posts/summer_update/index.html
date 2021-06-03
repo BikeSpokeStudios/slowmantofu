@@ -2,19 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-    <base href="http://www.slowmantofu.com">
+    <meta name="description" content="">
+
     
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
-
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_16x16.jpg" sizes="16x16">
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_32x32.jpg" sizes="32x32">
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_128x128.jpg" sizes="128x128">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400&display=swap" rel="stylesheet" media="print" type="text/css" onload="this.media='all'">
+    
 
     <title>
       
@@ -22,7 +18,7 @@
          The Light and Laughter Brigade 
       
     </title>
-    <link rel="canonical" href="http://www.slowmantofu.com/posts/summer_update/">
+    <link rel="canonical" href="https://www.slowmantofu.com/posts/summer_update/">
 
     <style>
   * {
@@ -33,6 +29,7 @@
     margin:0;
     padding:0;
     color: black;
+    text-decoration-skip: ink;
   }
 
   body {
@@ -48,8 +45,16 @@
     margin: 20px 0;
   }
 
+  a {
+    text-decoration: none;  
+  }
+
   a img {
     border:none;
+  }
+
+  a:hover {
+    color: #e99708;
   }
 
   img {
@@ -58,13 +63,8 @@
     display: block;
   }
 
-  .left-justify {
-    float: left;
-  }
-
-  .right-justify {
-    float:right;
-  }
+  .left-justify { float: left; }
+  .right-justify { float:right; }
 
   pre, code {
     font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -98,7 +98,6 @@
 
   pre code {
     display: inline;
-    max-width: auto;
     padding: 0;
     margin: 0;
     overflow: visible;
@@ -195,7 +194,7 @@
     margin-top:28px;
   }
 
-  #sub-header, time {
+  #sub-header, .date {
     color:#403c3b;
     font-size:13px;
   }
@@ -253,7 +252,7 @@
     margin-top:15px;
   }
 
-  #content time {
+  #content .date {
     margin-left:3px;
   }
 
@@ -296,11 +295,17 @@
   }
 
   #links {
+    display: flex;
+    justify-content: space-between;
     margin: 50px 0 0 0;
   }
 
+  #links :nth-child(1) {
+    margin-right:0.5em;;
+  }
+
   #links :nth-child(2) {
-    float:right;
+    margin-left:0.5em;;
   }
 
   #not-found {
@@ -383,39 +388,44 @@
     }
   }
 
-#mc_embed_signup {
-  background-color: lightgrey;
-  padding: 20px;
-}
+  @media (prefers-color-scheme: dark) {
+    *, #nav h1 a {
+      color: #FDFDFD;
+    }
 
+    body {
+      background: #121212;
+    }
+
+    pre, code {
+      background-color: #262626;
+    }
+
+    #sub-header, .date {
+      color: #BABABA;
+    }
+
+    hr {
+      background: #EBEBEB;
+    }
+  }
 </style>
 
 
-    
-    <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-	    #mc_embed_signup{clear:left;}
-	       
-    </style> 
-    <meta property="og:url"                content="http://slowmantofu.com/" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="Slow Man Tofu" />
-    <meta property="og:description"        content="Slow Man Tofu: musician, artist" />
-    <meta property="og:image"              content="https://slowmantofu.com/img/slow_man_tofu_resize.jpg" />
-  </head>
+    </head>
 
   <body>
     <section id=nav>
-      <h1><a href="http://www.slowmantofu.com/">Slow Man Tofu</a></h1>
+      <h1><a href="https://www.slowmantofu.com/">David Parker</a></h1>
       <ul>
         
-          <li><a href="http://www.slowmantofu.com/pages/about">About</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/about">About</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/music">Music</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/music">Music</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/photos">Photos</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/photos">Photos</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/video">Video</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/video">Video</a></li>
         
       </ul>
     </section>
@@ -424,31 +434,28 @@
 <section id=content>
   <h1> The Light and Laughter Brigade </h1>
 
-  <div id=sub-header>
-    July 2018 · 2 minute read
-  </div>
+  
+    <div id=sub-header>
+      July 2018 · 2 minute read
+    </div>
+  
 
   <div class="entry-content">
-    <p><img src="http://www.slowmantofu.com/img/ITS_group.jpg" alt="Light and Laughter Brigade" /></p>
-
+    <p><img src="https://www.slowmantofu.com/img/ITS_group.jpg" alt="Light and Laughter Brigade"></p>
 <p>I can&rsquo;t believe how long it&rsquo;s been since sitting down to write something on this site. Life has had some major ups and downs in the last 8 months that are impossible to encapsulate in this short message. Instead of trying to say everything, I&rsquo;ll stick to music news.</p>
-
 <p>I was lucky to go to Audiopollination #60 in Toronto at Array Space. It was the 60th edition of the self-curated improvised music series. I was placed in a trio with two artists I had never played with before, Bea Labikova and Raphael Roter. There is some <a href="https://vimeo.com/262099579">video</a> and <a href="http://mechanicalforestsound.blogspot.com/2018/05/recording-parkerlabikovaroter.html?spref=tw">audio</a> footage of our trio online. It was a memorable and completely unplanned set of music.</p>
-
 <p>I was overjoyed to be able to present Slow Man Tofu in a new manifestation: as a 4-piece band called the Light and Laughter Brigade. We played at the <a href="https://www.inthesoil.on.ca/">In The Soil Arts Festival</a> in St. Catharine&rsquo;s. The festival is a truly interdisciplinary gem featuring a wide variety of artists, installations and performances.</p>
-
 <p>The band included <a href="https://soundcloud.com/liam_fenton">Liam Fenton</a> on drums and guitar, <a href="https://mattrogalsky.bandcamp.com/">Matt Rogalsky</a> on guitar and sounds, and <a href="https://delstephen.bandcamp.com/">Del Stephen</a> on keys and tapes. In June, I was able to reassemble this group as a trio for two more shows in Kingston. I have hopes of getting all four back together for a recording session in December!</p>
-
 <p>And finally, after lots of internet and IRL discussions, a group of musicians, artists and community members have gotten together in Kingston to rent a studio space to use as a music venue, art gallery space and rehearsal space! It&rsquo;s at NGB studios and it&rsquo;s a beautiful setting for a diversity of arts events. We&rsquo;re all really excited to program events there. Stay tuned for more information that.</p>
 
   </div>
 
   <div id=links>
     
-      <a class="basic-alignment left" href="http://www.slowmantofu.com/posts/tour_poster/">&laquo; Fall (apart) Tour 2017</a>
+      <a href="https://www.slowmantofu.com/posts/tour_poster/">&laquo;&nbsp;Fall (apart) Tour 2017</a>
     
     
-      <a class="basic-alignment left" href="http://www.slowmantofu.com/posts/dance-flower/">Dance Flower &raquo;</a>
+      <a href="https://www.slowmantofu.com/posts/dance-flower/">Dance Flower&nbsp;&raquo;</a>
     
   </div>
 </section>
@@ -456,4 +463,6 @@
   
 </body>
 </html>
+
+
 

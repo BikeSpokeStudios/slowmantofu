@@ -2,19 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-    <base href="http://www.slowmantofu.com">
+    <meta name="description" content="">
+
     
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
-
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_16x16.jpg" sizes="16x16">
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_32x32.jpg" sizes="32x32">
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_128x128.jpg" sizes="128x128">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400&display=swap" rel="stylesheet" media="print" type="text/css" onload="this.media='all'">
+    
 
     <title>
       
@@ -22,7 +18,7 @@
          Touring Ontario &#43; Québec 
       
     </title>
-    <link rel="canonical" href="http://www.slowmantofu.com/posts/novembtour/">
+    <link rel="canonical" href="https://www.slowmantofu.com/posts/novembtour/">
 
     <style>
   * {
@@ -33,6 +29,7 @@
     margin:0;
     padding:0;
     color: black;
+    text-decoration-skip: ink;
   }
 
   body {
@@ -48,8 +45,16 @@
     margin: 20px 0;
   }
 
+  a {
+    text-decoration: none;  
+  }
+
   a img {
     border:none;
+  }
+
+  a:hover {
+    color: #e99708;
   }
 
   img {
@@ -58,13 +63,8 @@
     display: block;
   }
 
-  .left-justify {
-    float: left;
-  }
-
-  .right-justify {
-    float:right;
-  }
+  .left-justify { float: left; }
+  .right-justify { float:right; }
 
   pre, code {
     font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -98,7 +98,6 @@
 
   pre code {
     display: inline;
-    max-width: auto;
     padding: 0;
     margin: 0;
     overflow: visible;
@@ -195,7 +194,7 @@
     margin-top:28px;
   }
 
-  #sub-header, time {
+  #sub-header, .date {
     color:#403c3b;
     font-size:13px;
   }
@@ -253,7 +252,7 @@
     margin-top:15px;
   }
 
-  #content time {
+  #content .date {
     margin-left:3px;
   }
 
@@ -296,11 +295,17 @@
   }
 
   #links {
+    display: flex;
+    justify-content: space-between;
     margin: 50px 0 0 0;
   }
 
+  #links :nth-child(1) {
+    margin-right:0.5em;;
+  }
+
   #links :nth-child(2) {
-    float:right;
+    margin-left:0.5em;;
   }
 
   #not-found {
@@ -383,39 +388,44 @@
     }
   }
 
-#mc_embed_signup {
-  background-color: lightgrey;
-  padding: 20px;
-}
+  @media (prefers-color-scheme: dark) {
+    *, #nav h1 a {
+      color: #FDFDFD;
+    }
 
+    body {
+      background: #121212;
+    }
+
+    pre, code {
+      background-color: #262626;
+    }
+
+    #sub-header, .date {
+      color: #BABABA;
+    }
+
+    hr {
+      background: #EBEBEB;
+    }
+  }
 </style>
 
 
-    
-    <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-	    #mc_embed_signup{clear:left;}
-	       
-    </style> 
-    <meta property="og:url"                content="http://slowmantofu.com/" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="Slow Man Tofu" />
-    <meta property="og:description"        content="Slow Man Tofu: musician, artist" />
-    <meta property="og:image"              content="https://slowmantofu.com/img/slow_man_tofu_resize.jpg" />
-  </head>
+    </head>
 
   <body>
     <section id=nav>
-      <h1><a href="http://www.slowmantofu.com/">Slow Man Tofu</a></h1>
+      <h1><a href="https://www.slowmantofu.com/">David Parker</a></h1>
       <ul>
         
-          <li><a href="http://www.slowmantofu.com/pages/about">About</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/about">About</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/music">Music</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/music">Music</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/photos">Photos</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/photos">Photos</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/video">Video</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/video">Video</a></li>
         
       </ul>
     </section>
@@ -424,33 +434,29 @@
 <section id=content>
   <h1> Touring Ontario &#43; Québec </h1>
 
-  <div id=sub-header>
-    September 2017 · 2 minute read
-  </div>
+  
+    <div id=sub-header>
+      September 2017 · 2 minute read
+    </div>
+  
 
   <div class="entry-content">
-    <p><img src="http://www.slowmantofu.com/img/IMG_1005.JPG" alt="Nautical Chart" /></p>
-
+    <p><img src="https://www.slowmantofu.com/img/IMG_1005.JPG" alt="Nautical Chart"></p>
 <p>Tonight the Caravan Stage Company performs its last show in Vancouver on False Creek. It&rsquo;s been fun being the Sound Engineer on this tour that wraps up at the end of the month. Nine months living on a boat and travelling the seas has been a long time. I&rsquo;m excited to get back to making music more often, and for a Slow Man Tofu tour this autumn!</p>
-
-<p>Today I&rsquo;m releasing details for 9 tour dates scheduled for late November in Ontario and Montréal. Many of the dates I&rsquo;m performing with the talented and innovative <a href="https://delstephen.bandcamp.com/album/the-golden-hour">Del Stephen</a>. Joining me on drums for some of the concerts will be <a href="https://cfrcradio.bandcamp.com/track/forest-song">Andy Love</a>. I&rsquo;ve invited some really stellar performers to join the shows in particular cities, including <a href="https://elms.bandcamp.com">ELMS</a>, <a href="https://jonathandavies.bandcamp.com/">Jonathan Davies</a>, <a href="https://soundcloud.com/slowcollapse">Slow Collapse</a>, <a href="http://xiaoxuanhuang.com/gridportfolio/">Xiao Xuan</a>, <a href="https://soundcloud.com/skin0tone">Skin Tone</a>, and others. Two of the shows will be devoted to experimental and improvised music, including a stop at Array Space in Toronto and at 185 Van Horne in Montréal. More info and links can be found on my <a href="http://www.slowmantofu.com/pages/shows">shows</a> page.</p>
-
+<p>Today I&rsquo;m releasing details for 9 tour dates scheduled for late November in Ontario and Montréal. Many of the dates I&rsquo;m performing with the talented and innovative <a href="https://delstephen.bandcamp.com/album/the-golden-hour">Del Stephen</a>. Joining me on drums for some of the concerts will be <a href="https://cfrcradio.bandcamp.com/track/forest-song">Andy Love</a>. I&rsquo;ve invited some really stellar performers to join the shows in particular cities, including <a href="https://elms.bandcamp.com">ELMS</a>, <a href="https://jonathandavies.bandcamp.com/">Jonathan Davies</a>, <a href="https://soundcloud.com/slowcollapse">Slow Collapse</a>, <a href="http://xiaoxuanhuang.com/gridportfolio/">Xiao Xuan</a>, <a href="https://soundcloud.com/skin0tone">Skin Tone</a>, and others. Two of the shows will be devoted to experimental and improvised music, including a stop at Array Space in Toronto and at 185 Van Horne in Montréal. More info and links can be found on my <a href="https://www.slowmantofu.com/pages/shows">shows</a> page.</p>
 <p>Last week I released a new set of music called <em>Magicmouth</em>. Two of the songs were released previously on Soundcloud. I added 3 news ones from the same recording sessions for a total of five lengthy improvised jams for guitar, voice, and midi instruments. Please listen and enjoy!</p>
-
-<p><img src="http://www.slowmantofu.com/img/DP_album_cover.png" alt="Magicmouth" /></p>
-
+<p><img src="https://www.slowmantofu.com/img/DP_album_cover.png" alt="Magicmouth"></p>
 <p>Lately I&rsquo;ve been thinking about how ghosts impregnate a lot of the world, imbuing the present with intentions from the past, informing the direction our world is headed. Ghosts are everywhere, both troubled ghosts seeking justice, and benevolent, calm ghosts that enrich our experience of place.</p>
-
 <p>Happy Labour Day, everybody.</p>
 
   </div>
 
   <div id=links>
     
-      <a class="basic-alignment left" href="http://www.slowmantofu.com/posts/victoria/">&laquo; Victoria</a>
+      <a href="https://www.slowmantofu.com/posts/victoria/">&laquo;&nbsp;Victoria</a>
     
     
-      <a class="basic-alignment left" href="http://www.slowmantofu.com/posts/tour_poster/">Fall (apart) Tour 2017 &raquo;</a>
+      <a href="https://www.slowmantofu.com/posts/tour_poster/">Fall (apart) Tour 2017&nbsp;&raquo;</a>
     
   </div>
 </section>
@@ -458,4 +464,6 @@
   
 </body>
 </html>
+
+
 

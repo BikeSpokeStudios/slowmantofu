@@ -2,19 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-    <base href="http://www.slowmantofu.com">
+    <meta name="description" content="">
+
     
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
-
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_16x16.jpg" sizes="16x16">
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_32x32.jpg" sizes="32x32">
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_128x128.jpg" sizes="128x128">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400&display=swap" rel="stylesheet" media="print" type="text/css" onload="this.media='all'">
+    
 
     <title>
       
@@ -22,7 +18,7 @@
          Dance Flower 
       
     </title>
-    <link rel="canonical" href="http://www.slowmantofu.com/posts/dance-flower/">
+    <link rel="canonical" href="https://www.slowmantofu.com/posts/dance-flower/">
 
     <style>
   * {
@@ -33,6 +29,7 @@
     margin:0;
     padding:0;
     color: black;
+    text-decoration-skip: ink;
   }
 
   body {
@@ -48,8 +45,16 @@
     margin: 20px 0;
   }
 
+  a {
+    text-decoration: none;  
+  }
+
   a img {
     border:none;
+  }
+
+  a:hover {
+    color: #e99708;
   }
 
   img {
@@ -58,13 +63,8 @@
     display: block;
   }
 
-  .left-justify {
-    float: left;
-  }
-
-  .right-justify {
-    float:right;
-  }
+  .left-justify { float: left; }
+  .right-justify { float:right; }
 
   pre, code {
     font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -98,7 +98,6 @@
 
   pre code {
     display: inline;
-    max-width: auto;
     padding: 0;
     margin: 0;
     overflow: visible;
@@ -195,7 +194,7 @@
     margin-top:28px;
   }
 
-  #sub-header, time {
+  #sub-header, .date {
     color:#403c3b;
     font-size:13px;
   }
@@ -253,7 +252,7 @@
     margin-top:15px;
   }
 
-  #content time {
+  #content .date {
     margin-left:3px;
   }
 
@@ -296,11 +295,17 @@
   }
 
   #links {
+    display: flex;
+    justify-content: space-between;
     margin: 50px 0 0 0;
   }
 
+  #links :nth-child(1) {
+    margin-right:0.5em;;
+  }
+
   #links :nth-child(2) {
-    float:right;
+    margin-left:0.5em;;
   }
 
   #not-found {
@@ -383,39 +388,44 @@
     }
   }
 
-#mc_embed_signup {
-  background-color: lightgrey;
-  padding: 20px;
-}
+  @media (prefers-color-scheme: dark) {
+    *, #nav h1 a {
+      color: #FDFDFD;
+    }
 
+    body {
+      background: #121212;
+    }
+
+    pre, code {
+      background-color: #262626;
+    }
+
+    #sub-header, .date {
+      color: #BABABA;
+    }
+
+    hr {
+      background: #EBEBEB;
+    }
+  }
 </style>
 
 
-    
-    <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-	    #mc_embed_signup{clear:left;}
-	       
-    </style> 
-    <meta property="og:url"                content="http://slowmantofu.com/" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="Slow Man Tofu" />
-    <meta property="og:description"        content="Slow Man Tofu: musician, artist" />
-    <meta property="og:image"              content="https://slowmantofu.com/img/slow_man_tofu_resize.jpg" />
-  </head>
+    </head>
 
   <body>
     <section id=nav>
-      <h1><a href="http://www.slowmantofu.com/">Slow Man Tofu</a></h1>
+      <h1><a href="https://www.slowmantofu.com/">David Parker</a></h1>
       <ul>
         
-          <li><a href="http://www.slowmantofu.com/pages/about">About</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/about">About</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/music">Music</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/music">Music</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/photos">Photos</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/photos">Photos</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/video">Video</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/video">Video</a></li>
         
       </ul>
     </section>
@@ -424,27 +434,26 @@
 <section id=content>
   <h1> Dance Flower </h1>
 
-  <div id=sub-header>
-    November 2018 · 1 minute read
-  </div>
+  
+    <div id=sub-header>
+      November 2018 · 1 minute read
+    </div>
+  
 
   <div class="entry-content">
-    <p><img src="http://www.slowmantofu.com/img/dance_flower_square.jpg" alt="David and Bree posing in an alley with keyboard and flower" /></p>
-
+    <p><img src="https://www.slowmantofu.com/img/dance_flower_square.jpg" alt="David and Bree posing in an alley with keyboard and flower"></p>
 <p>In February 2018 I started jamming with artist, musician, creator, farmer and all-around friend Bree Rappaport. Our first performance in May used an overhead projector with illustrated acetates as a visual space in which to perform an improvised set of music with clarinet, upright bass, voice and digital signal processing.</p>
-
-<p>After that we created a set of demo recordings. We used some recorded interviews on tape cassette, recorded new interviews, then manipulated the tape playback and played clarinet, guitar, banjo, percussion and voice overtop. One of these songs was released on the <a href="https://dirtyclothesrecords.bandcamp.com/album/dcr-005-tour-tape">Dirty Clothes Tour Tape (DCR-005)</a>.</p>
-
-<p>We continued to write songs. Our first performance as Dance Flower was at the Brooklyn bar in Kingston with <a href="https://deuxtrois.bandcamp.com/">Deux Trois</a>. In October we joined Toronto musicians Del Stephen and Jeff Sinibaldi for a four city mini-tour as the Heart Structure Quartet, promoting DCR-005 and making friends along the way. It was memorable. Bree has helped with filming Slow Man Tofu music videos and performed live visual accompaniment at some SMT shows. It&rsquo;s been a fruitful collaboration.</p>
+<p>After that we created a set of demo recordings. We used some recorded interviews on tape cassette, recorded new interviews, then manipulated the tape playback and played clarinet, guitar, banjo, percussion and voice overtop. One of these songs was released on the [Dirty Clothes Tour Tape (DCR-005)] (<a href="https://dirtyclothesrecords.bandcamp.com/album/dcr-005-tour-tape)">https://dirtyclothesrecords.bandcamp.com/album/dcr-005-tour-tape)</a>.</p>
+<p>We continued to write songs. Our first performance as Dance Flower was at the Brooklyn bar in Kingston with [Deux Trois] (<a href="https://deuxtrois.bandcamp.com/)">https://deuxtrois.bandcamp.com/)</a>. In October we joined Toronto musicians Del Stephen and Jeff Sinibaldi for a four city mini-tour as the Heart Structure Quartet, promoting DCR-005 and making friends along the way. It was memorable. Bree has helped with filming Slow Man Tofu music videos and performed live visual accompaniment at some SMT shows. It&rsquo;s been a fruitful collaboration.</p>
 
   </div>
 
   <div id=links>
     
-      <a class="basic-alignment left" href="http://www.slowmantofu.com/posts/summer_update/">&laquo; The Light and Laughter Brigade</a>
+      <a href="https://www.slowmantofu.com/posts/summer_update/">&laquo;&nbsp;The Light and Laughter Brigade</a>
     
     
-      <a class="basic-alignment left" href="http://www.slowmantofu.com/posts/diary_tape/">Diary Tape &raquo;</a>
+      <a href="https://www.slowmantofu.com/posts/diary_tape/">Diary Tape&nbsp;&raquo;</a>
     
   </div>
 </section>
@@ -452,4 +461,6 @@
   
 </body>
 </html>
+
+
 

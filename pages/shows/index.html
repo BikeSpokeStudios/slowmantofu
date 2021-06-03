@@ -2,19 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-    <base href="http://www.slowmantofu.com">
+    <meta name="description" content="">
+
     
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
-
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_16x16.jpg" sizes="16x16">
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_32x32.jpg" sizes="32x32">
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_128x128.jpg" sizes="128x128">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400&display=swap" rel="stylesheet" media="print" type="text/css" onload="this.media='all'">
+    
 
     <title>
       
@@ -22,7 +18,7 @@
          Shows 
       
     </title>
-    <link rel="canonical" href="http://www.slowmantofu.com/pages/shows/">
+    <link rel="canonical" href="https://www.slowmantofu.com/pages/shows/">
 
     <style>
   * {
@@ -33,6 +29,7 @@
     margin:0;
     padding:0;
     color: black;
+    text-decoration-skip: ink;
   }
 
   body {
@@ -48,8 +45,16 @@
     margin: 20px 0;
   }
 
+  a {
+    text-decoration: none;  
+  }
+
   a img {
     border:none;
+  }
+
+  a:hover {
+    color: #e99708;
   }
 
   img {
@@ -58,13 +63,8 @@
     display: block;
   }
 
-  .left-justify {
-    float: left;
-  }
-
-  .right-justify {
-    float:right;
-  }
+  .left-justify { float: left; }
+  .right-justify { float:right; }
 
   pre, code {
     font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -98,7 +98,6 @@
 
   pre code {
     display: inline;
-    max-width: auto;
     padding: 0;
     margin: 0;
     overflow: visible;
@@ -195,7 +194,7 @@
     margin-top:28px;
   }
 
-  #sub-header, time {
+  #sub-header, .date {
     color:#403c3b;
     font-size:13px;
   }
@@ -253,7 +252,7 @@
     margin-top:15px;
   }
 
-  #content time {
+  #content .date {
     margin-left:3px;
   }
 
@@ -296,11 +295,17 @@
   }
 
   #links {
+    display: flex;
+    justify-content: space-between;
     margin: 50px 0 0 0;
   }
 
+  #links :nth-child(1) {
+    margin-right:0.5em;;
+  }
+
   #links :nth-child(2) {
-    float:right;
+    margin-left:0.5em;;
   }
 
   #not-found {
@@ -383,39 +388,44 @@
     }
   }
 
-#mc_embed_signup {
-  background-color: lightgrey;
-  padding: 20px;
-}
+  @media (prefers-color-scheme: dark) {
+    *, #nav h1 a {
+      color: #FDFDFD;
+    }
 
+    body {
+      background: #121212;
+    }
+
+    pre, code {
+      background-color: #262626;
+    }
+
+    #sub-header, .date {
+      color: #BABABA;
+    }
+
+    hr {
+      background: #EBEBEB;
+    }
+  }
 </style>
 
 
-    
-    <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-	    #mc_embed_signup{clear:left;}
-	       
-    </style> 
-    <meta property="og:url"                content="http://slowmantofu.com/" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="Slow Man Tofu" />
-    <meta property="og:description"        content="Slow Man Tofu: musician, artist" />
-    <meta property="og:image"              content="https://slowmantofu.com/img/slow_man_tofu_resize.jpg" />
-  </head>
+    </head>
 
   <body>
     <section id=nav>
-      <h1><a href="http://www.slowmantofu.com/">Slow Man Tofu</a></h1>
+      <h1><a href="https://www.slowmantofu.com/">David Parker</a></h1>
       <ul>
         
-          <li><a href="http://www.slowmantofu.com/pages/about">About</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/about">About</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/music">Music</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/music">Music</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/photos">Photos</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/photos">Photos</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/video">Video</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/video">Video</a></li>
         
       </ul>
     </section>
@@ -424,132 +434,88 @@
 <section id=content>
   <h1> Shows </h1>
 
-  <div id=sub-header>
-    September 2017 · 5 minute read
-  </div>
+  
+    <div id=sub-header>
+      September 2017 · 5 minute read
+    </div>
+  
 
   <div class="entry-content">
     <aside>Send an email to inquire about booking Slow Man Tofu: david@slowmantofu.com.</aside>
-
 <h2 id="upcoming-performances">Upcoming Performances</h2>
-
 <p>November 21, 2019 - Robert Aiki Aubrey Lowe + Heart Structure Quartet &amp; Sadaf Amini - Next Church, Kingston</p>
-
 <div style="display:none">
 <h2 id="past-performances">Past Performances</h2>
-
-April 14, 2019 - Anna Sudac + Slow Man Tofu - Something Else Records, Kingston, ON
-
-April 28, 2019 - Saxsyndrum + Cybersex - Something Else Records, Kingston, ON
-
-May 3, 2019 - Sound of the Mountain, Yumiko Yoshimoto wsg, Local Urchins - 12CAT, Kingston, ON
-
-May 4th, 2019 - Homegrown Festival Electroacoustic stage - Kingston, ON
-
-March 27, 2019 - 12CAT Live Karaoke Band Fundraiser - The Mansion, Kingston, ON
-
-March 7, 2019 - Distortion Sour Release with Dance Flower - Stone City Ales, Kingston, ON
-
-January 24, 2019 - Slow Man Tofu & Uncoded - Musiikki Cafe, Kingston, ON
-
-January 20, 2019 - Reves Sonores w/ guest David Parker, Dance Flower, Caveman TV - Something Else Records, Kingston, ON
-
-December 12, 2018 - Slow Man Tofu at Musiikki Cafe, Kingston, ON
-
-November 21, 2018 - Holzkopf, Snakes 4 Presidents - 12CAT, Kingston, ON
-
-November 10, 2018 - Slow Man Tofu at Musiikki Cafe, Kingston, ON
-
-November 1, 2018 - Boyhood, Slow Man Tofu, Konig - 12CAT, Kingston, ON
-
-October 21, 2018 - Heart Structure Quartet, Sharkya/Lima, Kraaijeveld/Caloia, Shelby Cohen - La Plante, Montreal, QC
-
-October 20, 2018 - Heart Structure Quartet, Ogoda/Chiarelli, Renders - 12CAT, Kingston, ON
-
-October 19, 2018 - ELMS, Tandem Trio, Heart Structure Quartet - Sadleir House, Peterborough, ON
-
-October 18, 2018 - Pineapple, Heart Structure Quartet, xLq - Tranzac, Toronto, ON
-
-August 30 , 2018 - Deux Trois, Dance Flower, Dayna Pirso - The Brooklyn, Kingston, ON
-
-July 3rd, 2018 - Baby Cages and Dorothea Paas with Rappaport/Parker - NGB Studios, Kingston, ON
-
-June 16th, 2018 - Silent Systems / Lius Rhutilius / Slow Man Tofu - The Mansion, Kingston, ON
-
-June 9th, 2018 - DIRTY CLOTHES Vol. 4: The Famines, Xiao Xuan & Slow Man Tofu's Light and Laughter Brigade, - NGB Studios, Kingston, ON
-
-May 5th, 2018 - with Bree Rappaport - Electroacoustic Stage, Homegrown Music Festival, Kingston ON
-
-April 29th, 2018 - Slow Man Tofu's Light and Laughter Brigade - In the Soil Arts Festival, St. Catharine's, ON
-
-March 10th, 2018 - with Bea Labikova and Raphael Roter - Audiopollination #60, Toronto, ON
-
-February 16, 2018 - Slow Man Tofu and Hugh Box - Musiikki Cafe, Kingston ON
-
-November 25, 2017 - Conz/Jacobs/Preito, Slow Collapse, Egyptian Cotton Arkestra, Del Stephen/Sinibaldi/Parker - 185 Van Horne, Montreal, QC
-
-November 24, 2017 - Slow Man Tofu // Xiao Xuan // Del Stephen - Musical Chairs, Kingston, ON
-
-November 22, 2017 - Spirit of the Inner Child: Spontaneous Collaborations - Array Space, Toronto, ON
-
-November 21, 2017 - Del Stephen // Happy Baby // Slow Man Tofu - The Tranzac Club, Toronto, ON
-
-November 20, 2017 - Moonfox, Del Stephen and Slow Man Tofu - Rise Above, St. Catharine's, ON
-
-November 19, 2017 - David Parker at IMOO - General Assembly, Ottawa, ON
-
-November 18, 2017 - Slow Man Tofu at Night Kitchen Too - Pinnacle Playhouse, Belleville, ON
-
-November 17, 2017 - Slow Man Tofu - Musiikki Cafe, Kingston, ON
-
-November 16, 2017 - Slow Man Tofu and Jonathan Davies - House concert, Harrowsmith, ON
-
-November 15, 2017 - ELMS, Raissa Simone & Slow Man Tofu - The Garnet, Peterborough, ON
-
+<p>April 14, 2019 - Anna Sudac + Slow Man Tofu - Something Else Records, Kingston, ON</p>
+<p>April 28, 2019 - Saxsyndrum + Cybersex - Something Else Records, Kingston, ON</p>
+<p>May 3, 2019 - Sound of the Mountain, Yumiko Yoshimoto wsg, Local Urchins - 12CAT, Kingston, ON</p>
+<p>May 4th, 2019 - Homegrown Festival Electroacoustic stage - Kingston, ON</p>
+<p>March 27, 2019 - 12CAT Live Karaoke Band Fundraiser - The Mansion, Kingston, ON</p>
+<p>March 7, 2019 - Distortion Sour Release with Dance Flower - Stone City Ales, Kingston, ON</p>
+<p>January 24, 2019 - Slow Man Tofu &amp; Uncoded - Musiikki Cafe, Kingston, ON</p>
+<p>January 20, 2019 - Reves Sonores w/ guest David Parker, Dance Flower, Caveman TV - Something Else Records, Kingston, ON</p>
+<p>December 12, 2018 - Slow Man Tofu at Musiikki Cafe, Kingston, ON</p>
+<p>November 21, 2018 - Holzkopf, Snakes 4 Presidents - 12CAT, Kingston, ON</p>
+<p>November 10, 2018 - Slow Man Tofu at Musiikki Cafe, Kingston, ON</p>
+<p>November 1, 2018 - Boyhood, Slow Man Tofu, Konig - 12CAT, Kingston, ON</p>
+<p>October 21, 2018 - Heart Structure Quartet, Sharkya/Lima, Kraaijeveld/Caloia, Shelby Cohen - La Plante, Montreal, QC</p>
+<p>October 20, 2018 - Heart Structure Quartet, Ogoda/Chiarelli, Renders - 12CAT, Kingston, ON</p>
+<p>October 19, 2018 - ELMS, Tandem Trio, Heart Structure Quartet - Sadleir House, Peterborough, ON</p>
+<p>October 18, 2018 - Pineapple, Heart Structure Quartet, xLq - Tranzac, Toronto, ON</p>
+<p>August 30 , 2018 - Deux Trois, Dance Flower, Dayna Pirso - The Brooklyn, Kingston, ON</p>
+<p>July 3rd, 2018 - Baby Cages and Dorothea Paas with Rappaport/Parker - NGB Studios, Kingston, ON</p>
+<p>June 16th, 2018 - Silent Systems / Lius Rhutilius / Slow Man Tofu - The Mansion, Kingston, ON</p>
+<p>June 9th, 2018 - DIRTY CLOTHES Vol. 4: The Famines, Xiao Xuan &amp; Slow Man Tofu&rsquo;s Light and Laughter Brigade, - NGB Studios, Kingston, ON</p>
+<p>May 5th, 2018 - with Bree Rappaport - Electroacoustic Stage, Homegrown Music Festival, Kingston ON</p>
+<p>April 29th, 2018 - Slow Man Tofu&rsquo;s Light and Laughter Brigade - In the Soil Arts Festival, St. Catharine&rsquo;s, ON</p>
+<p>March 10th, 2018 - with Bea Labikova and Raphael Roter - Audiopollination #60, Toronto, ON</p>
+<p>February 16, 2018 - Slow Man Tofu and Hugh Box - Musiikki Cafe, Kingston ON</p>
+<p>November 25, 2017 - Conz/Jacobs/Preito, Slow Collapse, Egyptian Cotton Arkestra, Del Stephen/Sinibaldi/Parker - 185 Van Horne, Montreal, QC</p>
+<p>November 24, 2017 - Slow Man Tofu // Xiao Xuan // Del Stephen - Musical Chairs, Kingston, ON</p>
+<p>November 22, 2017 - Spirit of the Inner Child: Spontaneous Collaborations - Array Space, Toronto, ON</p>
+<p>November 21, 2017 - Del Stephen // Happy Baby // Slow Man Tofu - The Tranzac Club, Toronto, ON</p>
+<p>November 20, 2017 - Moonfox, Del Stephen and Slow Man Tofu - Rise Above, St. Catharine&rsquo;s, ON</p>
+<p>November 19, 2017 - David Parker at IMOO - General Assembly, Ottawa, ON</p>
+<p>November 18, 2017 - Slow Man Tofu at Night Kitchen Too - Pinnacle Playhouse, Belleville, ON</p>
+<p>November 17, 2017 - Slow Man Tofu - Musiikki Cafe, Kingston, ON</p>
+<p>November 16, 2017 - Slow Man Tofu and Jonathan Davies - House concert, Harrowsmith, ON</p>
+<p>November 15, 2017 - ELMS, Raissa Simone &amp; Slow Man Tofu - The Garnet, Peterborough, ON</p>
 <p>August 28th, 2016 - Slow Man Tofu, Moonriser, &amp; Konig - Musical Chairs Furniture Store, Kingston, ON</p>
-
 <p>August 27th, 2016 - Slow Man Tofu, Moonriser, and Wire Tones - Le Cagibi, Montreal, QC</p>
-
 <p>August 25th, 2016 - Moonriser, Scary Bear Soundtrack &amp; Slow Man Tofu - Bar Robo, Ottawa, ON</p>
-
 <p>August 23rd, 2016 - Slow Man Tofu, Moonriser &amp; Anthony Sweet - Mahtay Cafe, Ste. Catharine’s, ON</p>
-
 <p>August 22nd, 2016 - Moonriser &amp; Slow Man Tofu - The Central (Upstairs), Toronto, ON</p>
-
 <p>August 21st, 2016 - Moonriser, Slow Man Tofu, and I, The Mountain - The Garnet, Peterborough, ON</p>
-
 <p>April 8th, 2016 - Dirty Clothes Series #2: Tanglewood, Sly Loon, and Slow Man Tofu at La Passe, Montreal, QC</p>
-
 <p>December 11th, 2015 - Dirty Clothes Presents: Slow Man Tofu &amp;&amp; Katie Beth, Musiikki Cafe, Kingston ON</p>
-
 <p>November 20th, 2015 - Musiikki Cafe, Kingston ON</p>
-
 <p>November 10th, 2015 - with Jonathan Davies, Harrowsmith, ON</p>
-
 <p>September 12th, 2015 - Pony Girl, Run Coyote, Slow Man Tofu &amp; Old Cabin at the Mansion, Kingston ON</p>
-
 <p>June 12, 2015 - Colin Richards, Matt Dowling &amp; Slow Man Tofu (album release) at Musiikki Cafe, Kingston ON</p>
-
 <p>March 26, 2015 - BA Johnson, The Huaraches &amp; Slow Man Tofu, at The Mansion, Kingston ON</p>
-
 <p>November 28, 2014 – David Parker + Matt Dowling, live at Musiikki Cafe and on CFRC 101.9 FM, Kingston ON</p>
-
 <p>October 1st, 2014 – Alanna Gurr &amp; The Greatest State // Lowlands // Slow Man Tofu, at The Artel, Kingston ON</p>
-
 <p>September 13th, 2014 – Shawna Caspi with special guest David Parker, house concert, Kingston ON</p>
-
 <p>June 11th, 2014 – Jon McKiel // Construction &amp; Destruction // Slow Man Tofu, at The Artel, Kingston ON</p>
-
 <p>February 27th, 2014 – Run Coyote // Slow Man Tofu // Ryan Keough, at The Artel, Kingston ON</p>
-
 <p>January 19th, 2014 – Warmer // Slow Man Tofu // A Cat Named Wolf, at The Artel, Kingston ON</p>
 </div>
 
   </div>
 
+  <div id=links>
+    
+      <a href="https://www.slowmantofu.com/pages/video/">&laquo;&nbsp;Video</a>
+    
+    
+      <a href="https://www.slowmantofu.com/pages/music/">Music&nbsp;&raquo;</a>
+    
+  </div>
 </section>
 
   
 </body>
 </html>
+
+
 

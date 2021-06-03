@@ -2,19 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-    <base href="http://www.slowmantofu.com">
+    <meta name="description" content="">
+
     
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
-
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_16x16.jpg" sizes="16x16">
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_32x32.jpg" sizes="32x32">
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_128x128.jpg" sizes="128x128">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400&display=swap" rel="stylesheet" media="print" type="text/css" onload="this.media='all'">
+    
 
     <title>
       
@@ -22,7 +18,7 @@
          Video 
       
     </title>
-    <link rel="canonical" href="http://www.slowmantofu.com/pages/video/">
+    <link rel="canonical" href="https://www.slowmantofu.com/pages/video/">
 
     <style>
   * {
@@ -33,6 +29,7 @@
     margin:0;
     padding:0;
     color: black;
+    text-decoration-skip: ink;
   }
 
   body {
@@ -48,8 +45,16 @@
     margin: 20px 0;
   }
 
+  a {
+    text-decoration: none;  
+  }
+
   a img {
     border:none;
+  }
+
+  a:hover {
+    color: #e99708;
   }
 
   img {
@@ -58,13 +63,8 @@
     display: block;
   }
 
-  .left-justify {
-    float: left;
-  }
-
-  .right-justify {
-    float:right;
-  }
+  .left-justify { float: left; }
+  .right-justify { float:right; }
 
   pre, code {
     font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -98,7 +98,6 @@
 
   pre code {
     display: inline;
-    max-width: auto;
     padding: 0;
     margin: 0;
     overflow: visible;
@@ -195,7 +194,7 @@
     margin-top:28px;
   }
 
-  #sub-header, time {
+  #sub-header, .date {
     color:#403c3b;
     font-size:13px;
   }
@@ -253,7 +252,7 @@
     margin-top:15px;
   }
 
-  #content time {
+  #content .date {
     margin-left:3px;
   }
 
@@ -296,11 +295,17 @@
   }
 
   #links {
+    display: flex;
+    justify-content: space-between;
     margin: 50px 0 0 0;
   }
 
+  #links :nth-child(1) {
+    margin-right:0.5em;;
+  }
+
   #links :nth-child(2) {
-    float:right;
+    margin-left:0.5em;;
   }
 
   #not-found {
@@ -383,39 +388,44 @@
     }
   }
 
-#mc_embed_signup {
-  background-color: lightgrey;
-  padding: 20px;
-}
+  @media (prefers-color-scheme: dark) {
+    *, #nav h1 a {
+      color: #FDFDFD;
+    }
 
+    body {
+      background: #121212;
+    }
+
+    pre, code {
+      background-color: #262626;
+    }
+
+    #sub-header, .date {
+      color: #BABABA;
+    }
+
+    hr {
+      background: #EBEBEB;
+    }
+  }
 </style>
 
 
-    
-    <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-	    #mc_embed_signup{clear:left;}
-	       
-    </style> 
-    <meta property="og:url"                content="http://slowmantofu.com/" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="Slow Man Tofu" />
-    <meta property="og:description"        content="Slow Man Tofu: musician, artist" />
-    <meta property="og:image"              content="https://slowmantofu.com/img/slow_man_tofu_resize.jpg" />
-  </head>
+    </head>
 
   <body>
     <section id=nav>
-      <h1><a href="http://www.slowmantofu.com/">Slow Man Tofu</a></h1>
+      <h1><a href="https://www.slowmantofu.com/">David Parker</a></h1>
       <ul>
         
-          <li><a href="http://www.slowmantofu.com/pages/about">About</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/about">About</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/music">Music</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/music">Music</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/photos">Photos</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/photos">Photos</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/video">Video</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/video">Video</a></li>
         
       </ul>
     </section>
@@ -424,50 +434,46 @@
 <section id=content>
   <h1> Video </h1>
 
-  <div id=sub-header>
-    September 2017 · 1 minute read
-  </div>
+  
+    <div id=sub-header>
+      September 2017 · 1 minute read
+    </div>
+  
 
   <div class="entry-content">
     <p>Meat Birds music video! Shot on location at Something Else Records, Kingston, ON. Direction: David Parker and Sian Alcorn. Camera: Sian Alcorn and Vince Strohmaier. Special thanks to Matt and Tanya Robinson.</p>
-
 <iframe src="https://player.vimeo.com/video/373794796" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 <p><em>So much to remember - Garden Take</em> is a Dance Flower music video.</p>
-
 <iframe src="https://player.vimeo.com/video/302981000" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 <p>Starting Bands by Slow Man Tofu. Produced by Sian Alcorn.</p>
-
 <iframe frameborder="0" src="https://player.vimeo.com/video/282553440" width="640" height="360"></iframe>
-
 <p>A music video for the improvised guitar jam &lsquo;fragile&rsquo;. Shot in Halifax, NS.</p>
-
 <iframe width="640" height="360" src="http://www.youtube.com/embed/L2sXT57PCLc" frameborder="0"></iframe>
-
 <p>This music video I created for a small side project called &lsquo;Snakes 4 President&rsquo;.</p>
-
 <iframe width="640" height="360" src="http://www.youtube.com/embed/F9sdlrEWs6I" frameborder="0"></iframe>
-
 <p>Here is a music video I made for Ramblings, from the album Steer, released August 2016.</p>
-
 <iframe frameborder="0" height="360" src="http://youtube.com/embed/gq77Nqpzt9o?rel=0" width="640"></iframe>
-
 <p>For David Blackwood by Slow Man Tofu, performed live at La Passe, Montreal, April 2016.</p>
-
 <iframe frameborder="0" height="360" src="http://www.youtube.com/embed/t8KW9D_3r7E?rel=0" width="640"></iframe>
-
 <p>The following videos were created by the talented Beechwood Productions in the late Fall of 2014. We shot them in a beautiful little setting just north of Kingston, Ontario.</p>
-
 <iframe frameborder="0" height="360" src="http://player.vimeo.com/video/115108978" width="640"></iframe>
-
 <iframe frameborder="0" height="360" src="http://player.vimeo.com/video/114084636" width="640"></iframe>
 
   </div>
 
+  <div id=links>
+    
+      <a href="https://www.slowmantofu.com/pages/reviews/">&laquo;&nbsp;Reviews</a>
+    
+    
+      <a href="https://www.slowmantofu.com/pages/shows/">Shows&nbsp;&raquo;</a>
+    
+  </div>
 </section>
 
   
 </body>
 </html>
+
+
 

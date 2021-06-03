@@ -2,19 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-    <base href="http://www.slowmantofu.com">
+    <meta name="description" content="">
+
     
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
-
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_16x16.jpg" sizes="16x16">
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_32x32.jpg" sizes="32x32">
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_128x128.jpg" sizes="128x128">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400&display=swap" rel="stylesheet" media="print" type="text/css" onload="this.media='all'">
+    
 
     <title>
       
@@ -22,7 +18,7 @@
          Introducing: Soft Melody Maker 
       
     </title>
-    <link rel="canonical" href="http://www.slowmantofu.com/posts/soft-melody-maker/">
+    <link rel="canonical" href="https://www.slowmantofu.com/posts/soft-melody-maker/">
 
     <style>
   * {
@@ -33,6 +29,7 @@
     margin:0;
     padding:0;
     color: black;
+    text-decoration-skip: ink;
   }
 
   body {
@@ -48,8 +45,16 @@
     margin: 20px 0;
   }
 
+  a {
+    text-decoration: none;  
+  }
+
   a img {
     border:none;
+  }
+
+  a:hover {
+    color: #e99708;
   }
 
   img {
@@ -58,13 +63,8 @@
     display: block;
   }
 
-  .left-justify {
-    float: left;
-  }
-
-  .right-justify {
-    float:right;
-  }
+  .left-justify { float: left; }
+  .right-justify { float:right; }
 
   pre, code {
     font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -98,7 +98,6 @@
 
   pre code {
     display: inline;
-    max-width: auto;
     padding: 0;
     margin: 0;
     overflow: visible;
@@ -195,7 +194,7 @@
     margin-top:28px;
   }
 
-  #sub-header, time {
+  #sub-header, .date {
     color:#403c3b;
     font-size:13px;
   }
@@ -253,7 +252,7 @@
     margin-top:15px;
   }
 
-  #content time {
+  #content .date {
     margin-left:3px;
   }
 
@@ -296,11 +295,17 @@
   }
 
   #links {
+    display: flex;
+    justify-content: space-between;
     margin: 50px 0 0 0;
   }
 
+  #links :nth-child(1) {
+    margin-right:0.5em;;
+  }
+
   #links :nth-child(2) {
-    float:right;
+    margin-left:0.5em;;
   }
 
   #not-found {
@@ -383,39 +388,44 @@
     }
   }
 
-#mc_embed_signup {
-  background-color: lightgrey;
-  padding: 20px;
-}
+  @media (prefers-color-scheme: dark) {
+    *, #nav h1 a {
+      color: #FDFDFD;
+    }
 
+    body {
+      background: #121212;
+    }
+
+    pre, code {
+      background-color: #262626;
+    }
+
+    #sub-header, .date {
+      color: #BABABA;
+    }
+
+    hr {
+      background: #EBEBEB;
+    }
+  }
 </style>
 
 
-    
-    <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-	    #mc_embed_signup{clear:left;}
-	       
-    </style> 
-    <meta property="og:url"                content="http://slowmantofu.com/" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="Slow Man Tofu" />
-    <meta property="og:description"        content="Slow Man Tofu: musician, artist" />
-    <meta property="og:image"              content="https://slowmantofu.com/img/slow_man_tofu_resize.jpg" />
-  </head>
+    </head>
 
   <body>
     <section id=nav>
-      <h1><a href="http://www.slowmantofu.com/">Slow Man Tofu</a></h1>
+      <h1><a href="https://www.slowmantofu.com/">David Parker</a></h1>
       <ul>
         
-          <li><a href="http://www.slowmantofu.com/pages/about">About</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/about">About</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/music">Music</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/music">Music</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/photos">Photos</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/photos">Photos</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/video">Video</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/video">Video</a></li>
         
       </ul>
     </section>
@@ -424,55 +434,42 @@
 <section id=content>
   <h1> Introducing: Soft Melody Maker </h1>
 
-  <div id=sub-header>
-    May 2020 · 6 minute read
-  </div>
+  
+    <div id=sub-header>
+      May 2020 · 6 minute read
+    </div>
+  
 
   <div class="entry-content">
-    
-
-<p><img src="https://f4.bcbits.com/img/a1416922795_10.jpg" alt="Album Cover of Soft Melody Maker" />
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=4001327392/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://slowmantofu.bandcamp.com/album/soft-melody-maker">Soft Melody Maker by Slow Man Tofu</a></iframe></p>
-
+    <p><img src="https://f4.bcbits.com/img/a1416922795_10.jpg" alt="Album Cover of Soft Melody Maker"></p>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=4001327392/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://slowmantofu.bandcamp.com/album/soft-melody-maker">Soft Melody Maker by Slow Man Tofu</a></iframe>
 <p>A month ago I released Soft Melody Maker, my second full-length release that I co-produced with Matt Rogalsky. This album was created over the course of 4 years from 2016 to 2020. My life had a unique trajectory during this time. Starting out in Kingston, moving to Montreal for half a year, back to Kingston to perform a circus show for two months, off to Halifax for half a year, then to the Caravan Stage Company for a 9-month tour in the US and Canada, then to a small farm on Howe Island, and finally back to Kingston. I hear all of these time periods in these songs, each of them speak to me in some way, and I hope they speak to you too.</p>
-
 <p>My good friend and musician Michael C. Duguay got to listen to the album a month before release, and took the time to write a thoughtful and glowing review of the work. I&rsquo;m posting the review here in it&rsquo;s entirety. Please read it as you listen to the songs! Warm hugs and love,</p>
-
 <p>-David.</p>
-
-<h1 id="a-strong-charming-case-for-nihilism">A Strong &amp; Charming Case for Nihilism:</h1>
-
-<h1 id="slow-man-tofu-s-soft-melofy-maker">Slow Man Tofu’s Soft Melofy Maker</h1>
-
+<h1 id="a-strong--charming-case-for-nihilism">A Strong &amp; Charming Case for Nihilism:</h1>
+<h1 id="slow-man-tofus-soft-melofy-maker">Slow Man Tofu’s Soft Melofy Maker</h1>
 <h3 id="by-michael-c-duguay">by Michael C. Duguay</h3>
-
-<h3 id="04-10-20">04/10/20</h3>
-
-<p><img src="http://www.slowmantofu.com/img/Cybersex_band_photo.jpg" alt="Photo of David Parker and Michael Duguay." />
+<h3 id="041020">04/10/20</h3>
+<p><img src="https://www.slowmantofu.com/img/Cybersex_band_photo.jpg" alt="Photo of David Parker and Michael Duguay.">
 <em>Photo of Parker and Duguay.</em></p>
-
 <p>When I first met and quickly befriended ​Slow Man Tofu​’s David Parker in the small, arid eastern Ontario city where we both presently live, I promptly discovered that we share an abundance of parallel lived experience. Both David and I have respectively called half a dozen of the same Canadian cities home, though never at the same time - until now. Occasionally only narrowly missing one another, we’ve communed in many of the same spaces - where surely we would have become friends - with many of the same people, unearthing many of the same passions. Our marginally asynchronous trajectories have naturally resulted in a commonality - in values, language, creative influences, and practices - and an inherent familiarity with the content of one another’s work. Yet, our paths have remained just anachronic enough that, when I immerse myself in David’s work - work that often deals with subjects I can and do intimately relate to - the comfort of this organic affinity is accompanied by a sort of creeping gestalt shift; my basic knowledge and understanding of these subjects remains the same, but the details are displaced and recast, and this is compelling, educational, and occasionally unsettling. I don’t believe that one needs to have accidentally followed David around the country and then eventually become fast friends with him in order to experience this dichotomy while engaging with his work; while Slow Man Tofu’s ​Soft Melody Maker​ is, in its themes and some of its presentation, innately familiar and soothing, it is also conversely, in its myriad idiosyncrasies, uniquely disconcerting. What the world needs now is work which transcends binary emotional posturing; which, antithetical to contemporary algorithmic production, doesn’t rely on the psychic conventions of genre, and which stands, lyrically as well as musically, both stoic and delighted, warm and cryptic, subjective yet rational. ​Soft Melody Maker ​not only provides these nuances; it eloquently narrates them, and assigns them to the world in which we live.</p>
-
 <p>As a lyricist and as a singer, Parker’s work exists in direct lineage of turn-of-the-century American lo-fi, slowcore, and alternative country - the most obvious comparisons are singer-songwriters Jason Molina and Bill Callahan. Parkers untrained, warbly tenor evokes the unnerved (and unnerving) fragility of Molina’s early work, while drawing on Callahan’s deadpan delivery - and to great effect. He can sing a deeply moving promise of unconditional love to his yet unborn child (​‘one day soon my love I’ll show you’)​ in the same muted bawl with which he delivers stoically bizarre lines like, ​‘meat birds for sale in Margaritaville​’. Parker’s sincerity never wavers, which establishes a unique and stalwart confidence in a voice that, on first listen, is not a conventionally confident singing voice. Here is but one example of Parker’s ability to not only successfully fuck with convention, but to effectively outpace it as he moves on to the record’s next unusually striking moment.</p>
-
-<p><img src="http://www.slowmantofu.com/img/eska_dad_beach.jpeg" alt="Photo of Slow Man Tofu holding babe by the sea." />
+<p><img src="https://www.slowmantofu.com/img/eska_dad_beach.jpeg" alt="Photo of Slow Man Tofu holding babe by the sea.">
 <em>Slow Man Tofu and the newest addition to the family.</em></p>
-
 <p>Soft Melody Maker o​pens with ​American Sunglasses​, a song that begins with ​Surfin’ Safari​-esque bohemian nonchalance. Over the course of four and a half minutes, the tenor of Parker’s lyrics shift from an easy-going proclamation of ‘​you’re looking good, you’re feeling fine,the sun’s shining and you’ve got time​’ to the forlorn observation that ‘​the sun is hotter in a world full of lies &hellip; you’re running out of time​’. Parker’s use of prosody here, as well as his invocation of American iconography, immediately evokes familiarity, which he follows by doing what he does best. He establishes a recognizable, parochial trope, and then undermines it through plainspoken, honest polemics. He provides his listener an opportunity to revisit and reconsider their understanding of the innate and obvious, and to question their own potential pareidolia in the process.</p>
-
 <p>Parker’s knack for distilling discomfort out of the ordinary is reflected in his arrangement and performance, as well. Musically, ​Soft Melody Maker​ evokes nostalgia for many of my favourite early 21st century Canadian records: Fembots’ ​Small Town Murder Scene,​ Royal City’s ​Alone at The Microphone,​ and Rock Plaza Central’s ​Are We Not Horses​. These albums all belong to one of my favourite musical epochs, a genre I refer to as Southern Ontario Gothic​. The album’s liner notes cite Parker performing every instrument ‘except for a few synths played by Matt Rogalsky’ (who also beautifully mixed and mastered the record). The instrumentation is principally traditional- we hear acoustic guitars, banjos, mandolins, double bass - yet again, once an identifiable palette is inaugurated, Parker skillfully and subtly alters their shapes, extends techniques, shifts the tone and mood. Drum parts are performed slightly out of time, harsh synth drones come and go without warning. These are all clearly the decisions of an artist whose execution expertly reflects his vision, and whose vision does not include concerns as to whether or not his listener can perceive just how expertly he is doing that.</p>
-
-<p><img src="http://www.slowmantofu.com/img/inside_photo.png" alt="Photo of Halifax Harbour enshrouded by clouds." />
+<p><img src="https://www.slowmantofu.com/img/inside_photo.png" alt="Photo of Halifax Harbour enshrouded by clouds.">
 <em>Looking out of Fenwick Tower towards Dartmouth, NS, i.e. the far shore. Halifax harbour, shrouded in clouds.</em></p>
-
 <p>This speaks to the thread of agnosticism which binds this entire record together. ​Soft Melody Maker​ simultaneously excitedly celebrates life&rsquo;s first breath, and abstrusely warns of imminent doom. Parker candidly celebrates the beauty of the corporeal world while unequivocally acknowledging that this beauty is fleeting, which, in and of itself, is a romantic thought. He doesn’t perform the part of the heretical soothsayer, glorifying doomsday, but one gets the strong sense that he is at peace with it, and therefore, can live easy. Once again, Parker offers an alternative view of our own engrained understandings and experiences. ​Soft Melody Maker m​akes a strong and charming case for optimistic nihilism; the understanding that the world lacks meaning and purpose, and therefore it is well within one’s grasp to change the human experience from a negative one to a positive one, to make the most of the time we have. As Parker says himself, ‘​in the fire, everything is on sale in its last moments before combustion’​ .</p>
 
   </div>
 
   <div id=links>
     
-      <a class="basic-alignment left" href="http://www.slowmantofu.com/posts/2019-the-year-of-eska/">&laquo; 2019: The Year of Eska</a>
+      <a href="https://www.slowmantofu.com/posts/2019-the-year-of-eska/">&laquo;&nbsp;2019: The Year of Eska</a>
     
+    
+      <a href="https://www.slowmantofu.com/posts/pandemic-creativity/">Creativity in the Pandemic&nbsp;&raquo;</a>
     
   </div>
 </section>
@@ -480,4 +477,6 @@
   
 </body>
 </html>
+
+
 

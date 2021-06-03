@@ -2,19 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-    <base href="http://www.slowmantofu.com">
+    <meta name="description" content="">
+
     
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
-
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_16x16.jpg" sizes="16x16">
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_32x32.jpg" sizes="32x32">
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_128x128.jpg" sizes="128x128">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400&display=swap" rel="stylesheet" media="print" type="text/css" onload="this.media='all'">
+    
 
     <title>
       
@@ -22,7 +18,7 @@
          Fall (apart) Tour 2017 
       
     </title>
-    <link rel="canonical" href="http://www.slowmantofu.com/posts/tour_poster/">
+    <link rel="canonical" href="https://www.slowmantofu.com/posts/tour_poster/">
 
     <style>
   * {
@@ -33,6 +29,7 @@
     margin:0;
     padding:0;
     color: black;
+    text-decoration-skip: ink;
   }
 
   body {
@@ -48,8 +45,16 @@
     margin: 20px 0;
   }
 
+  a {
+    text-decoration: none;  
+  }
+
   a img {
     border:none;
+  }
+
+  a:hover {
+    color: #e99708;
   }
 
   img {
@@ -58,13 +63,8 @@
     display: block;
   }
 
-  .left-justify {
-    float: left;
-  }
-
-  .right-justify {
-    float:right;
-  }
+  .left-justify { float: left; }
+  .right-justify { float:right; }
 
   pre, code {
     font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -98,7 +98,6 @@
 
   pre code {
     display: inline;
-    max-width: auto;
     padding: 0;
     margin: 0;
     overflow: visible;
@@ -195,7 +194,7 @@
     margin-top:28px;
   }
 
-  #sub-header, time {
+  #sub-header, .date {
     color:#403c3b;
     font-size:13px;
   }
@@ -253,7 +252,7 @@
     margin-top:15px;
   }
 
-  #content time {
+  #content .date {
     margin-left:3px;
   }
 
@@ -296,11 +295,17 @@
   }
 
   #links {
+    display: flex;
+    justify-content: space-between;
     margin: 50px 0 0 0;
   }
 
+  #links :nth-child(1) {
+    margin-right:0.5em;;
+  }
+
   #links :nth-child(2) {
-    float:right;
+    margin-left:0.5em;;
   }
 
   #not-found {
@@ -383,39 +388,44 @@
     }
   }
 
-#mc_embed_signup {
-  background-color: lightgrey;
-  padding: 20px;
-}
+  @media (prefers-color-scheme: dark) {
+    *, #nav h1 a {
+      color: #FDFDFD;
+    }
 
+    body {
+      background: #121212;
+    }
+
+    pre, code {
+      background-color: #262626;
+    }
+
+    #sub-header, .date {
+      color: #BABABA;
+    }
+
+    hr {
+      background: #EBEBEB;
+    }
+  }
 </style>
 
 
-    
-    <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-	    #mc_embed_signup{clear:left;}
-	       
-    </style> 
-    <meta property="og:url"                content="http://slowmantofu.com/" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="Slow Man Tofu" />
-    <meta property="og:description"        content="Slow Man Tofu: musician, artist" />
-    <meta property="og:image"              content="https://slowmantofu.com/img/slow_man_tofu_resize.jpg" />
-  </head>
+    </head>
 
   <body>
     <section id=nav>
-      <h1><a href="http://www.slowmantofu.com/">Slow Man Tofu</a></h1>
+      <h1><a href="https://www.slowmantofu.com/">David Parker</a></h1>
       <ul>
         
-          <li><a href="http://www.slowmantofu.com/pages/about">About</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/about">About</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/music">Music</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/music">Music</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/photos">Photos</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/photos">Photos</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/video">Video</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/video">Video</a></li>
         
       </ul>
     </section>
@@ -424,34 +434,30 @@
 <section id=content>
   <h1> Fall (apart) Tour 2017 </h1>
 
-  <div id=sub-header>
-    November 2017 · 2 minute read
-  </div>
+  
+    <div id=sub-header>
+      November 2017 · 2 minute read
+    </div>
+  
 
   <div class="entry-content">
-    <p><img src="http://www.slowmantofu.com/img/newSheep.JPG" alt="Field of sheep" />
+    <p><img src="https://www.slowmantofu.com/img/newSheep.JPG" alt="Field of sheep">
 <em>Sheep on the farm, Howe Island, ON.</em></p>
-
 <p>And so it begins! In just over a week I&rsquo;m hitting the road to play 10 shows in 11 nights. That&rsquo;s the longest string of concerts I&rsquo;ve ever played. It fills me with joy, trepidation, excitement and nervousness.</p>
-
 <p>Touring as a sound technician with the Caravan Stage Company came to an end 5 weeks ago and my life is still an adjustment to living on land in a house as opposed to a boat at sea. I&rsquo;m living and working on an organic farm, renovating an old farmhouse and building a new barn for cows on Howe Island, Ontario. These are projects I&rsquo;ve never done before and learning new skills in this rural setting feels like the next adventure.</p>
-
 <p>I&rsquo;ve been focusing on preparing my music for the road.  I will be bringing my upright bass, electric guitar and amp, laptop, and a new homemade step-sequencer I just finished building.</p>
-
 <p>I&rsquo;ll be selling my 2016 release STEER on tape cassette and digital download card as well as releases by Fire Moss on CD, tape and mini-CD and my duets with Stefan Christoff. I&rsquo;ll be doing some radio interviews on CFRC 101.9fm in the afternoons of November 17th and 24th before both my Kingston shows. I&rsquo;m happy that this campus/community radio station continues to support my music.</p>
-
 <p>To everyone who has helped organize this tour with me and to those who have agreed to play with me - especially Del Stephen - thank you! To everyone who has offered encouragement and support, thank you too! All of these things make it possible to dream this big.</p>
-
-<p><img src="http://www.slowmantofu.com/img/SlowManTofubanner.JPG" alt="Tour Promo Banner" /></p>
+<p><img src="https://www.slowmantofu.com/img/SlowManTofubanner.JPG" alt="Tour Promo Banner"></p>
 
   </div>
 
   <div id=links>
     
-      <a class="basic-alignment left" href="http://www.slowmantofu.com/posts/novembtour/">&laquo; Touring Ontario &#43; Québec</a>
+      <a href="https://www.slowmantofu.com/posts/novembtour/">&laquo;&nbsp;Touring Ontario &#43; Québec</a>
     
     
-      <a class="basic-alignment left" href="http://www.slowmantofu.com/posts/summer_update/">The Light and Laughter Brigade &raquo;</a>
+      <a href="https://www.slowmantofu.com/posts/summer_update/">The Light and Laughter Brigade&nbsp;&raquo;</a>
     
   </div>
 </section>
@@ -459,4 +465,6 @@
   
 </body>
 </html>
+
+
 

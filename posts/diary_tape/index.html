@@ -2,19 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-    <base href="http://www.slowmantofu.com">
+    <meta name="description" content="">
+
     
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
-
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_16x16.jpg" sizes="16x16">
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_32x32.jpg" sizes="32x32">
-    <link rel="icon" type="image/jpeg" href="http://www.slowmantofu.com/favicon_128x128.jpg" sizes="128x128">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400&display=swap" rel="stylesheet" media="print" type="text/css" onload="this.media='all'">
+    
 
     <title>
       
@@ -22,7 +18,7 @@
          Diary Tape 
       
     </title>
-    <link rel="canonical" href="http://www.slowmantofu.com/posts/diary_tape/">
+    <link rel="canonical" href="https://www.slowmantofu.com/posts/diary_tape/">
 
     <style>
   * {
@@ -33,6 +29,7 @@
     margin:0;
     padding:0;
     color: black;
+    text-decoration-skip: ink;
   }
 
   body {
@@ -48,8 +45,16 @@
     margin: 20px 0;
   }
 
+  a {
+    text-decoration: none;  
+  }
+
   a img {
     border:none;
+  }
+
+  a:hover {
+    color: #e99708;
   }
 
   img {
@@ -58,13 +63,8 @@
     display: block;
   }
 
-  .left-justify {
-    float: left;
-  }
-
-  .right-justify {
-    float:right;
-  }
+  .left-justify { float: left; }
+  .right-justify { float:right; }
 
   pre, code {
     font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -98,7 +98,6 @@
 
   pre code {
     display: inline;
-    max-width: auto;
     padding: 0;
     margin: 0;
     overflow: visible;
@@ -195,7 +194,7 @@
     margin-top:28px;
   }
 
-  #sub-header, time {
+  #sub-header, .date {
     color:#403c3b;
     font-size:13px;
   }
@@ -253,7 +252,7 @@
     margin-top:15px;
   }
 
-  #content time {
+  #content .date {
     margin-left:3px;
   }
 
@@ -296,11 +295,17 @@
   }
 
   #links {
+    display: flex;
+    justify-content: space-between;
     margin: 50px 0 0 0;
   }
 
+  #links :nth-child(1) {
+    margin-right:0.5em;;
+  }
+
   #links :nth-child(2) {
-    float:right;
+    margin-left:0.5em;;
   }
 
   #not-found {
@@ -383,39 +388,44 @@
     }
   }
 
-#mc_embed_signup {
-  background-color: lightgrey;
-  padding: 20px;
-}
+  @media (prefers-color-scheme: dark) {
+    *, #nav h1 a {
+      color: #FDFDFD;
+    }
 
+    body {
+      background: #121212;
+    }
+
+    pre, code {
+      background-color: #262626;
+    }
+
+    #sub-header, .date {
+      color: #BABABA;
+    }
+
+    hr {
+      background: #EBEBEB;
+    }
+  }
 </style>
 
 
-    
-    <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-	    #mc_embed_signup{clear:left;}
-	       
-    </style> 
-    <meta property="og:url"                content="http://slowmantofu.com/" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="Slow Man Tofu" />
-    <meta property="og:description"        content="Slow Man Tofu: musician, artist" />
-    <meta property="og:image"              content="https://slowmantofu.com/img/slow_man_tofu_resize.jpg" />
-  </head>
+    </head>
 
   <body>
     <section id=nav>
-      <h1><a href="http://www.slowmantofu.com/">Slow Man Tofu</a></h1>
+      <h1><a href="https://www.slowmantofu.com/">David Parker</a></h1>
       <ul>
         
-          <li><a href="http://www.slowmantofu.com/pages/about">About</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/about">About</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/music">Music</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/music">Music</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/photos">Photos</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/photos">Photos</a></li>
         
-          <li><a href="http://www.slowmantofu.com/pages/video">Video</a></li>
+          <li><a href="https://www.slowmantofu.com/pages/video">Video</a></li>
         
       </ul>
     </section>
@@ -424,33 +434,29 @@
 <section id=content>
   <h1> Diary Tape </h1>
 
-  <div id=sub-header>
-    April 2019 · 2 minute read
-  </div>
+  
+    <div id=sub-header>
+      April 2019 · 2 minute read
+    </div>
+  
 
   <div class="entry-content">
-    <p><img src="http://www.slowmantofu.com/img/diary_tape_cover_lo_res.jpg" alt="Diary Tape album cover" /></p>
-
+    <p><img src="https://www.slowmantofu.com/img/diary_tape_cover_lo_res.jpg" alt="Diary Tape album cover"></p>
 <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=3439474962/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://slowmantofu.bandcamp.com/album/steer">Diary Tape by Slow Man Tofu</a></iframe>
-
 <p>In 2018 I experienced some upheaval that lead to intense emotions. At the same time I was processing recent life events from 2016 and 2017 that had thrown my daily life upside down. I moved several times, traveled and gave up many of my material possessions. 2018 was overwhelming for me, especially early on, but there were moments of light and lucidity.</p>
-
 <p>The idea for this tape came out of some recording sessions with friends. My bandmate and I were using interviews she had recorded on tape, manipulating those tapes and playing instruments along to the interviews. It inspired me to make something more personal involving my own voice and thoughts in audio format, as a sonic element alongside stretches of improvised musical passages.</p>
-
 <p>I used a variety of instruments each of which lent itself to a particular path of composing. Each one had it&rsquo;s own personality and I arranged them to complement the feelings and thoughts from the spoken word passages.</p>
-
 <p>I don&rsquo;t really know what this is supposed to be, it doesn&rsquo;t sound like quite anything I&rsquo;ve done before, nor anything that I&rsquo;ve listened to. Although it does remind me of some of those early God Speed You Black Emperor albums with the spoken word bits. I don&rsquo;t know what to file it under.</p>
-
 <p>I had the idea in mind to fill two sides of a 40 minute tape with two 20 minute long compositions. Here it is in its entirety.</p>
 
   </div>
 
   <div id=links>
     
-      <a class="basic-alignment left" href="http://www.slowmantofu.com/posts/dance-flower/">&laquo; Dance Flower</a>
+      <a href="https://www.slowmantofu.com/posts/dance-flower/">&laquo;&nbsp;Dance Flower</a>
     
     
-      <a class="basic-alignment left" href="http://www.slowmantofu.com/posts/2019-the-year-of-eska/">2019: The Year of Eska &raquo;</a>
+      <a href="https://www.slowmantofu.com/posts/2019-the-year-of-eska/">2019: The Year of Eska&nbsp;&raquo;</a>
     
   </div>
 </section>
@@ -458,4 +464,6 @@
   
 </body>
 </html>
+
+
 
