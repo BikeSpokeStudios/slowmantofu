@@ -2,19 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dparker.ca/pages/contact/</loc>
-    <lastmod>2022-12-08T09:08:51-05:00</lastmod>
-  </url><url>
     <loc>https://dparker.ca/</loc>
+    <lastmod>2023-01-16T10:51:05-05:00</lastmod>
+  </url><url>
+    <loc>https://dparker.ca/posts/</loc>
+    <lastmod>2023-01-16T10:51:05-05:00</lastmod>
+  </url><url>
+    <loc>https://dparker.ca/posts/witches-butter/</loc>
+    <lastmod>2023-01-16T10:51:05-05:00</lastmod>
+  </url><url>
+    <loc>https://dparker.ca/pages/contact/</loc>
     <lastmod>2022-12-08T09:08:51-05:00</lastmod>
   </url><url>
     <loc>https://dparker.ca/pages/</loc>
     <lastmod>2022-12-08T09:08:51-05:00</lastmod>
   </url><url>
     <loc>https://dparker.ca/posts/open-to-new-possibilities/</loc>
-    <lastmod>2022-06-06T09:09:02-04:00</lastmod>
-  </url><url>
-    <loc>https://dparker.ca/posts/</loc>
     <lastmod>2022-06-06T09:09:02-04:00</lastmod>
   </url><url>
     <loc>https://dparker.ca/posts/first-take/</loc>
